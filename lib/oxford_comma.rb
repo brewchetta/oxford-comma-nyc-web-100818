@@ -1,5 +1,3 @@
-require 'pry'
-
 def oxford_comma(array)
   if array.length < 3
     array.join(" and ")
@@ -8,5 +6,3 @@ def oxford_comma(array)
     array.join(", ")
   end
 end
-
-binding.pry
